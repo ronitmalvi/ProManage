@@ -13,7 +13,7 @@ function App() {
     <div className="app bg-slate-900 text-slate-100 min-h-screen">
       <Navbar />
       <Routes>
-        <Route path="/" element={user ? <Home /> : <Navigate to="/login" />} />
+        <Route path="/" element={user ? <Navigate to="/login" /> : <Home />} />
         <Route
           path="/login"
           element={!user ? <Login /> : <Navigate to="/" />}
