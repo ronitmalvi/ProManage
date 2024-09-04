@@ -1,0 +1,31 @@
+.navBar {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navBar a, .logout-btn{
+    margin: 15px;
+    font-size: 20px;
+  }
+  
+  .logout-btn {
+    background-color: #FBDFEA;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .navBar a.active {
+    border-bottom: 1px solid black;
+  }
+  
+  .navBar button {
+    margin-right: 5%;
+  }
+  
+  @media screen and (max-width: 1170px) {
+    .navBar button img {
+      max-width: 20vw;
+    }
+  }
+  
