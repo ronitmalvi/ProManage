@@ -1,0 +1,123 @@
+.home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 88vh;
+}
+
+.homepage-title {
+  font-family: 'Petit Formal Script', cursive;
+  margin-bottom: 0;
+  font-size: 40px;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.title-img {
+  width: 80%;
+  margin-top: 0;
+}
+
+.home section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.light {
+  max-width: 375px;
+}
+
+.project-info-container {
+  display: flex;
+  align-items: center;
+}
+
+.project-info {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 50px 40px 10px 40px;
+}
+
+.popup {
+  background-color: white;
+  border-radius: 25px;
+  width: 30%;
+  max-height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.popup-buttons-container {
+  max-height: 70%;
+  width: 100%;
+}
+
+.popup-button {
+  width: 75%;
+  background-color: #FBDFEA;
+  border-radius: 10px;
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  text-align: center;
+  margin: 20px;
+  width: 310px;
+  max-width: 75%;
+  height: 50px;
+  border: 3px solid #FBDFEA
+}
+
+.popup-button:hover {
+  border: 3px solid #FFBCD7;
+}
+
+@media screen and (max-width: 1620px) {
+  .popup {
+    width: 40%;
+  }
+
+  .light {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .home {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .homepage-title {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  .light-section {
+    height: 33%;
+  }
+
+  .popup {
+    min-height: 64%;
+    width: 100%;
+    border-radius: 24px 24px 0px 0px;
+  }
+
+  .light {
+    max-width: 64%;
+    max-height: 100%;
+  }
+
+  .popup-button {
+    margin: 30px 5px;
+  }
+}
