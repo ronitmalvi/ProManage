@@ -1,0 +1,31 @@
+main, header {
+    animation: fadeIn 0.5s ease-in;
+  }
+  
+  .app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100vw;
+  }
+  
+  .app-logo img {
+    width: 450px;
+    max-width: 80vw;
+  }
+  
+  main {
+    width: 100vw;
+    max-height: 88vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  .form-height {
+    max-height: 100vh;
+  }
+  
+  .app-error {
+    text-align: center;
+    color: #AF0F0F;
+  }
