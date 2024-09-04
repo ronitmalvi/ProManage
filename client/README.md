@@ -1,43 +1,62 @@
-# Proxima - A Project Management Website
+<div align="center">
+<h1> Project Planner</h1>
+Unlock Creativity with AI: Your Infinite Source of Innovative Project Ideas
 
-Proxima is a modern project management website built using the MERN stack, Context API, JWT, and TailwindCSS. With a sleek and intuitive interface, users can easily create, update, and delete their projects. Proxima also features a secure protected route in the frontend, ensuring user data remains safe and secure.
+[DEPLOYED LINK](https://project-planner-ui.vercel.app/)<br>
+[Link to Back-End Repo](https://github.com/AI-Project-Planner/project_planner_be)
 
-## Features
+Technologies used:<br>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e" />
+  <br>
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"/>
+  <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white"/>
+</div>
 
-Proxima comes packed with a variety of useful features, including:
+## Abstract: 
+Our Project Planning app is a groundbreaking solution, powered by advanced AI technology, designed to revolutionize the way you generate project ideas and plan them effectively. In a fast-paced world where innovation is paramount, finding the perfect project concept, assembling the right tech stack, and estimating timelines and resources can be an intimidating challenge. Our app simplifies this process by harnessing the power of AI to provide tailored project ideas based on the user's preferences and objectives.
 
-- Simplify project management tasks: Perform tasks such as creating, updating, and deleting projects with ease using the app's user-friendly interface.
-- High-level security: Enjoy peace of mind with the app's highly secure JWT authentication and frontend route protection, which safeguards your data.
-- Personalized project views: Keep your projects confidential by allowing users to view only the projects they have created.
-- User-friendly interface: Enjoy a smooth and intuitive experience with the app's streamlined UI, which makes project management simple and straightforward.
+# Preview of App:
+ <div align='center'> 
+  <h2>Filling Out the Form </h2>
+  <img src="./src/images/project1.gif" alt="gif showing form being filled out" />
+  <h2>Viewing & Favoriting the Results</h2>
+    <img src="./src/images/project2.gif" alt="gif showing view and favoriting of results" />
+  <h2>Editing the Results</h2>
+    <img src="./src/images/project3.gif" alt="gif showing editing of results" />
+ </div>
 
-## Tools Used
+## Installation Instructions:
+- Fork [this](https://github.com/AI-Project-Planner/project-planner-ui) repository. 
+- Clone it to your local machine using the command: `git clone git@github.com:AI-Project-Planner/project-planner-ui.git`.
+- Run the command: `cd project-planner-ui`
+- Run the command: `npm install`
+- Run the command: `npm start`
+- To run Cypress e2e tests, run the command: `npm run cypress`
+Note about Cypress: There are unstubbed network requests in all result page components due to the YouTube videos being displayed- these network requests are coming directly from YouTube so we were unable to intercept them.
 
-- **Node.js** - JavaScript runtime environment that runs on the server.
-- **Express** - Fast, minimalist web framework for Node.js.
-- **MongoDB** - NoSQL database that uses a document-oriented data model.
-- **JWT** - JSON Web Tokens for secure authentication and authorization.
-- **React** - JavaScript library for building user interfaces.
-- **Context API** - React's Context API for state management.
-- **Tailwind CSS** - CSS framework that allows for easy customization and rapid development.
+## Context:
+- All contributors are currently enrolled in the seven month long Front End Engineering program at Turing School of Software and Design. This project was created during the third module of the program, which has a total of four modules. 
 
-## Installation
+## Contributors:
+Front End Team
+- [Laura Garcia Guerra](https://github.com/lauraguerra1)
+- [Fernando Robles](https://github.com/fernandorobles97)
+- [Saki Chatphatthanasiri](https://github.com/sakisandrac)
 
-1. Clone the client repository using git clone https://github.com/KeyaAkter/proxima-client
-2. Clone the server repository using git clone https://github.com/KeyaAkter/proxima-server
-3. Install the required dependencies by running `npm install `or `npm i` in both the client and server directories.
-4. Create a `.env` file in the root directory of server and add the following variables:
-   - `MONGO_URI`: the MongoDB connection string
-   - `SECRET`: a secret string for JWT authentication
-5. Create a `.env` file in the root directory of client and add the following variable:
+Back End Team
+- <a href="https://github.com/amspears007">Amy Marie Spears</a>
+- <a href="https://github.com/calforcal">Michael Callahan </a>
+- <a href="https://github.com/javenb022">Javen Wilson</a>
+- <a href="https://github.com/garrettgregor">Garrett Gregor</a>
 
-- `REACT_APP_BASE_URL`: for example http://localhost:4000
-
-6. Start the backend server by running `npm start`.
-7. Start the backend server by running `npm start`.
-
-## Links
-
-- [Live Demo](https://proxima-project.netlify.app/)
-- [Front-End Repository](https://github.com/KeyaAkter/proxima-client)
-- [Back-End Repository](https://github.com/KeyaAkter/proxima-server)
+## Learning Goals:
+- Improving communication and collaboration skills by working with a dedicated Back-End team.
+- Gain proficiency in leveraging AI technology for enhanced functionality and efficiency in a project.
+- Solidify knowledge and understanding of React and TypeScript fundamentals.
+- Understanding continuous deployment principles and incorporating CircleCI into our project.
